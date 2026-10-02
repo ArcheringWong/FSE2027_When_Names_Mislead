@@ -1,0 +1,30 @@
+protocol: STUDY_S_V2_CONFIRMATORY_PROTOCOL_2_3
+population: 87 RCA100 confirmatory base incidents
+questions:
+  SQ1: semantic usefulness via semantic-minus-opaque root accuracy
+  SQ2: repaired provenance-defined typed-holder attraction
+topology:
+  primary: topology-on
+  internal_replication: topology-off
+seeds: [20260901, 20260902, 20260903]
+clustering:
+  unit: base incident
+  seed_rows_bound_within_incident: true
+validity:
+  primary_prediction_valid: Protocol 2.3
+  evidence_reference_valid: separately reported
+  primary_invalid: incorrect and non-holder; no partial recovery; no exclusion; no content retry
+  unknown: incorrect; non-holder only where explicitly permitted; not invalid
+  auxiliary_only: explicit root enters primary estimator
+switches:
+  new_switch: frozen Study-S v2 definition
+  strict_stable_switch: frozen Study-S v2 definition
+bootstrap:
+  count: 10000
+  seed: 20260905
+  resampling: incident-clustered
+prohibitions:
+  post_outcome_case_exclusion: true
+  fuzzy_root_recovery: true
+  partial_json_recovery: true
+  adaptive_seed_selection: true

@@ -1,0 +1,17 @@
+provider,topology,semantic_start_category,case_seed_rows,unique_cases
+DEEPSEEK,on,correct_root_to_holder,1,1
+DEEPSEEK,on,other_valid_wrong_entity_to_holder,5,3
+DEEPSEEK,on,already_holder_to_holder,1,1
+DEEPSEEK,on,unknown_or_prediction_invalid_to_holder,0,0
+DEEPSEEK,off,correct_root_to_holder,2,1
+DEEPSEEK,off,other_valid_wrong_entity_to_holder,3,2
+DEEPSEEK,off,already_holder_to_holder,1,1
+DEEPSEEK,off,unknown_or_prediction_invalid_to_holder,0,0
+QWEN,on,correct_root_to_holder,17,10
+QWEN,on,other_valid_wrong_entity_to_holder,27,19
+QWEN,on,already_holder_to_holder,1,1
+QWEN,on,unknown_or_prediction_invalid_to_holder,0,0
+QWEN,off,correct_root_to_holder,13,8
+QWEN,off,other_valid_wrong_entity_to_holder,19,13
+QWEN,off,already_holder_to_holder,1,1
+QWEN,off,unknown_or_prediction_invalid_to_holder,0,0

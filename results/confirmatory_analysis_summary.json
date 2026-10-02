@@ -1,0 +1,358 @@
+{
+  "analysis_id": "CONFIRMATORY_ANALYSIS_001",
+  "analysis_integrity": {
+    "adaptive_seeds": 0,
+    "bootstrap_count": 10000,
+    "bootstrap_resampling_unit": "base_incident",
+    "bootstrap_seed": 20260905,
+    "case_replacements": 0,
+    "confirmatory_cases_included": 87,
+    "deepseek_execution_files_modified": 0,
+    "fuzzy_recovery": 0,
+    "gold_used_only_after_combined_freeze": true,
+    "historical_v1_results_loaded": 0,
+    "outcome_dependent_exclusions": 0,
+    "partial_json_recovery": 0,
+    "provider_model_calls_during_analysis": 0,
+    "qwen_execution_files_modified": 0,
+    "registered_string_holder_usage": 0,
+    "response_join_rows": 1740,
+    "root_rows": 87,
+    "status": "PASS",
+    "typed_provenance_holder_expected": 261,
+    "typed_provenance_holder_rows": 261,
+    "v1_holder_usage": 0
+  },
+  "completed_at": "2026-09-06T09:44:26.606304+00:00",
+  "frozen_inputs": {
+    "bootstrap_count": 10000,
+    "bootstrap_seed": 20260905,
+    "cases": 87,
+    "hashes": {
+      "combined": "08caaa303a324f162f08ea370c48de8af7f3dc11cc4f89a7baf353ecdec7cc61",
+      "deepseek": "e5453b96c4fa47b04191c36d7757f2bed134c35ad1fd2083ce70c3cb32f335ca",
+      "plan": "6b6a86306ef8660019c855eab30d173992d24be9b44760394d48e2f327c706fc",
+      "protocol": "781c2bc4af660ca392b4ef8610efc5ee4216117916844153de09c543011babb3",
+      "qwen": "c9b5b39900ab517cb947e8a36c6e97aa469cbc9d5670b5c867527e72c3d60b29"
+    },
+    "index_rows": 1740,
+    "permutation_seeds": [
+      20260901,
+      20260902,
+      20260903
+    ],
+    "provider_model_calls": 0,
+    "topology_primary": "on",
+    "topology_replication": "off"
+  },
+  "model_api_calls": 0,
+  "operational_validity": [
+    {
+      "auxiliary_invalid": 8,
+      "evidence_reference_valid": 862,
+      "finish_reason_length": 7,
+      "primary_invalid": 7,
+      "primary_valid": 863,
+      "provider": "QWEN",
+      "total": 870,
+      "unknown": 4
+    },
+    {
+      "auxiliary_invalid": 29,
+      "evidence_reference_valid": 841,
+      "finish_reason_length": 0,
+      "primary_invalid": 0,
+      "primary_valid": 870,
+      "provider": "DEEPSEEK",
+      "total": 870,
+      "unknown": 12
+    }
+  ],
+  "protocol": "STUDY_S_V2_CONFIRMATORY_PROTOCOL_2_3",
+  "response_join_rows": 1740,
+  "root_rows": 87,
+  "seed_level": [
+    {
+      "difference_count": 11,
+      "difference_rate": 0.12643678160919541,
+      "opaque_holder": 0,
+      "permuted_holder": 11,
+      "provider": "QWEN",
+      "seed": 20260901,
+      "topology": "on"
+    },
+    {
+      "difference_count": 13,
+      "difference_rate": 0.14942528735632185,
+      "opaque_holder": 0,
+      "permuted_holder": 13,
+      "provider": "QWEN",
+      "seed": 20260902,
+      "topology": "on"
+    },
+    {
+      "difference_count": 20,
+      "difference_rate": 0.22988505747126436,
+      "opaque_holder": 1,
+      "permuted_holder": 21,
+      "provider": "QWEN",
+      "seed": 20260903,
+      "topology": "on"
+    },
+    {
+      "difference_count": 8,
+      "difference_rate": 0.09195402298850575,
+      "opaque_holder": 0,
+      "permuted_holder": 8,
+      "provider": "QWEN",
+      "seed": 20260901,
+      "topology": "off"
+    },
+    {
+      "difference_count": 10,
+      "difference_rate": 0.11494252873563218,
+      "opaque_holder": 0,
+      "permuted_holder": 10,
+      "provider": "QWEN",
+      "seed": 20260902,
+      "topology": "off"
+    },
+    {
+      "difference_count": 14,
+      "difference_rate": 0.16091954022988506,
+      "opaque_holder": 1,
+      "permuted_holder": 15,
+      "provider": "QWEN",
+      "seed": 20260903,
+      "topology": "off"
+    },
+    {
+      "difference_count": 2,
+      "difference_rate": 0.022988505747126436,
+      "opaque_holder": 0,
+      "permuted_holder": 2,
+      "provider": "DEEPSEEK",
+      "seed": 20260901,
+      "topology": "on"
+    },
+    {
+      "difference_count": 2,
+      "difference_rate": 0.022988505747126436,
+      "opaque_holder": 0,
+      "permuted_holder": 2,
+      "provider": "DEEPSEEK",
+      "seed": 20260902,
+      "topology": "on"
+    },
+    {
+      "difference_count": 2,
+      "difference_rate": 0.022988505747126436,
+      "opaque_holder": 1,
+      "permuted_holder": 3,
+      "provider": "DEEPSEEK",
+      "seed": 20260903,
+      "topology": "on"
+    },
+    {
+      "difference_count": 2,
+      "difference_rate": 0.022988505747126436,
+      "opaque_holder": 0,
+      "permuted_holder": 2,
+      "provider": "DEEPSEEK",
+      "seed": 20260901,
+      "topology": "off"
+    },
+    {
+      "difference_count": 1,
+      "difference_rate": 0.011494252873563218,
+      "opaque_holder": 0,
+      "permuted_holder": 1,
+      "provider": "DEEPSEEK",
+      "seed": 20260902,
+      "topology": "off"
+    },
+    {
+      "difference_count": 2,
+      "difference_rate": 0.022988505747126436,
+      "opaque_holder": 1,
+      "permuted_holder": 3,
+      "provider": "DEEPSEEK",
+      "seed": 20260903,
+      "topology": "off"
+    }
+  ],
+  "sq1": [
+    {
+      "ci95_lower": 0.06896551724137931,
+      "ci95_upper": 0.21839080459770116,
+      "delta": 0.13793103448275862,
+      "mcnemar_exact_two_sided_p": 0.00048828125,
+      "mcnemar_opaque_only": 0,
+      "mcnemar_semantic_only": 12,
+      "opaque_accuracy": 0.011494252873563218,
+      "opaque_correct": 1,
+      "provider": "QWEN",
+      "semantic_accuracy": 0.14942528735632185,
+      "semantic_correct": 13,
+      "topology": "on"
+    },
+    {
+      "ci95_lower": 0.05747126436781609,
+      "ci95_upper": 0.21839080459770116,
+      "delta": 0.13793103448275862,
+      "mcnemar_exact_two_sided_p": 0.0018310546875,
+      "mcnemar_opaque_only": 1,
+      "mcnemar_semantic_only": 13,
+      "opaque_accuracy": 0.022988505747126436,
+      "opaque_correct": 2,
+      "provider": "QWEN",
+      "semantic_accuracy": 0.16091954022988506,
+      "semantic_correct": 14,
+      "topology": "off"
+    },
+    {
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.08045977011494253,
+      "delta": 0.034482758620689655,
+      "mcnemar_exact_two_sided_p": 0.25,
+      "mcnemar_opaque_only": 0,
+      "mcnemar_semantic_only": 3,
+      "opaque_accuracy": 0.011494252873563218,
+      "opaque_correct": 1,
+      "provider": "DEEPSEEK",
+      "semantic_accuracy": 0.04597701149425287,
+      "semantic_correct": 4,
+      "topology": "on"
+    },
+    {
+      "ci95_lower": 0.011494252873563218,
+      "ci95_upper": 0.09195402298850575,
+      "delta": 0.04597701149425287,
+      "mcnemar_exact_two_sided_p": 0.125,
+      "mcnemar_opaque_only": 0,
+      "mcnemar_semantic_only": 4,
+      "opaque_accuracy": 0.011494252873563218,
+      "opaque_correct": 1,
+      "provider": "DEEPSEEK",
+      "semantic_accuracy": 0.05747126436781609,
+      "semantic_correct": 5,
+      "topology": "off"
+    }
+  ],
+  "sq1_decision": {
+    "cross_model_off": "CROSS_MODEL_SEMANTIC_BENEFIT_CONFIRMED",
+    "cross_model_on": "CROSS_MODEL_SEMANTIC_BENEFIT_NOT_CONFIRMED",
+    "internal_replication": "CROSS_MODEL_SEMANTIC_BENEFIT_CONFIRMED",
+    "model_specific": {
+      "DEEPSEEK": {
+        "off": {
+          "lower_ci_positive": true,
+          "passed": true,
+          "point_positive": true
+        },
+        "on": {
+          "lower_ci_positive": false,
+          "passed": false,
+          "point_positive": true
+        }
+      },
+      "QWEN": {
+        "off": {
+          "lower_ci_positive": true,
+          "passed": true,
+          "point_positive": true
+        },
+        "on": {
+          "lower_ci_positive": true,
+          "passed": true,
+          "point_positive": true
+        }
+      }
+    },
+    "primary": "CROSS_MODEL_SEMANTIC_BENEFIT_NOT_CONFIRMED"
+  },
+  "sq2": [
+    {
+      "ci95_lower": 0.11494252873563217,
+      "ci95_upper": 0.22605363984674332,
+      "decision": "REPAIRED_TYPED_HOLDER_ATTRACTION_CONFIRMED",
+      "delta_attr": 0.1685823754789272,
+      "delta_attr_percentage_points": 16.85823754789272,
+      "denominator": 261,
+      "new_switches": 44,
+      "opaque_holder_selections": 1,
+      "permuted_holder_selections": 45,
+      "provider": "QWEN",
+      "strict_stable_switches": 6,
+      "topology": "on",
+      "unique_affected_cases": 29,
+      "unique_strict_cases": 4
+    },
+    {
+      "ci95_lower": 0.07662835249042144,
+      "ci95_upper": 0.1762452107279693,
+      "decision": "REPAIRED_TYPED_HOLDER_ATTRACTION_CONFIRMED",
+      "delta_attr": 0.1226053639846743,
+      "delta_attr_percentage_points": 12.26053639846743,
+      "denominator": 261,
+      "new_switches": 32,
+      "opaque_holder_selections": 1,
+      "permuted_holder_selections": 33,
+      "provider": "QWEN",
+      "strict_stable_switches": 4,
+      "topology": "off",
+      "unique_affected_cases": 21,
+      "unique_strict_cases": 3
+    },
+    {
+      "ci95_lower": 0.0038314176245210726,
+      "ci95_upper": 0.04980842911877394,
+      "decision": "REPAIRED_TYPED_HOLDER_ATTRACTION_NOT_CONFIRMED",
+      "delta_attr": 0.022988505747126433,
+      "delta_attr_percentage_points": 2.298850574712643,
+      "denominator": 261,
+      "new_switches": 6,
+      "opaque_holder_selections": 1,
+      "permuted_holder_selections": 7,
+      "provider": "DEEPSEEK",
+      "strict_stable_switches": 0,
+      "topology": "on",
+      "unique_affected_cases": 4,
+      "unique_strict_cases": 0
+    },
+    {
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.045977011494252866,
+      "decision": "REPAIRED_TYPED_HOLDER_ATTRACTION_NOT_CONFIRMED",
+      "delta_attr": 0.019157088122605363,
+      "delta_attr_percentage_points": 1.9157088122605364,
+      "denominator": 261,
+      "new_switches": 5,
+      "opaque_holder_selections": 1,
+      "permuted_holder_selections": 6,
+      "provider": "DEEPSEEK",
+      "strict_stable_switches": 0,
+      "topology": "off",
+      "unique_affected_cases": 3,
+      "unique_strict_cases": 0
+    }
+  ],
+  "sq2_decision": {
+    "cross_model_off": "CROSS_MODEL_REPAIRED_TYPED_HOLDER_ATTRACTION_NOT_CONFIRMED",
+    "cross_model_on": "CROSS_MODEL_REPAIRED_TYPED_HOLDER_ATTRACTION_NOT_CONFIRMED",
+    "internal_replication": "CROSS_MODEL_REPAIRED_TYPED_HOLDER_ATTRACTION_NOT_CONFIRMED",
+    "model_specific": {
+      "DEEPSEEK": {
+        "off": "REPAIRED_TYPED_HOLDER_ATTRACTION_NOT_CONFIRMED",
+        "on": "REPAIRED_TYPED_HOLDER_ATTRACTION_NOT_CONFIRMED"
+      },
+      "QWEN": {
+        "off": "REPAIRED_TYPED_HOLDER_ATTRACTION_CONFIRMED",
+        "on": "REPAIRED_TYPED_HOLDER_ATTRACTION_CONFIRMED"
+      }
+    },
+    "primary": "CROSS_MODEL_REPAIRED_TYPED_HOLDER_ATTRACTION_NOT_CONFIRMED"
+  },
+  "status": "CONFIRMATORY_ANALYSIS_FROZEN_READY_FOR_INTERPRETATION",
+  "typed_holder_rows": 261
+}

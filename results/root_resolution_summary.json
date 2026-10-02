@@ -1,0 +1,8 @@
+{
+  "ambiguous_legacy": 62,
+  "cases": 87,
+  "changed": 62,
+  "legacy_repaired_identical": 25,
+  "repaired_root_contained_in_legacy_resolution_set": 87,
+  "repaired_unique": 87
+}

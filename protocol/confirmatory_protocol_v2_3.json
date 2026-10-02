@@ -1,0 +1,48 @@
+{
+  "checkpoint_every_case_blocks": 10,
+  "common": {
+    "concurrency": 1,
+    "content_retry": false,
+    "max_output_tokens": 1024,
+    "request_seed": 20260830,
+    "stream": false,
+    "temperature": 0,
+    "tools": false,
+    "top_p": 1
+  },
+  "execution_root": "confirmatory/executions/CONFIRMATORY_V2_001",
+  "future_run_id": "CONFIRMATORY_V2_001",
+  "models": {
+    "DEEPSEEK": {
+      "interface": "OpenAI-compatible Chat Completions",
+      "model": "deepseek-v4-pro",
+      "provider": "DeepSeek official API",
+      "response_format": "json_object",
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "QWEN": {
+      "enable_thinking": false,
+      "interface": "OpenAI-compatible Chat Completions",
+      "model": "qwen3.7-plus-2026-05-26",
+      "provider": "Alibaba Cloud Model Studio / DashScope Beijing",
+      "response_format": "json_schema"
+    }
+  },
+  "population": {
+    "cases": 87,
+    "deepseek_requests": 870,
+    "logical_conditions": 870,
+    "qwen_requests": 870
+  },
+  "preparation_id": "CONFIRMATORY_PREP_001",
+  "protocol_version": "STUDY_S_V2_CONFIRMATORY_PROTOCOL_2_3",
+  "provider_wave_order": [
+    "QWEN",
+    "DEEPSEEK"
+  ],
+  "schedule_seed": 20260906,
+  "submission_enabled_during_preparation": false,
+  "validity_protocol": "OUTPUT_VALIDITY_STRATIFICATION_001"
+}

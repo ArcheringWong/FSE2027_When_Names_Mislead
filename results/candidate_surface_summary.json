@@ -1,0 +1,11 @@
+{
+  "candidate_membership_equal": 0,
+  "candidate_order_on_intersection_equal": 510,
+  "eligible_type_map_equal": 522,
+  "omitted_max": 1720,
+  "omitted_median": 8.0,
+  "omitted_min": 6,
+  "rows": 522,
+  "same_eligible_type_label_assignment": 0,
+  "typed_holder_observable": 522
+}

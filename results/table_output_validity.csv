@@ -1,0 +1,3 @@
+provider,total,primary_valid,primary_invalid,evidence_reference_valid,auxiliary_invalid,unknown,finish_reason_length
+QWEN,870,863,7,862,8,4,7
+DEEPSEEK,870,870,0,841,29,12,0

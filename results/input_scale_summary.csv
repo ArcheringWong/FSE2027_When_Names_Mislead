@@ -1,0 +1,6 @@
+measure,n,min,median,max
+candidate_entities,87,253,275,1951
+evidence_units,87,51,60,67
+candidate_entity_types,87,16,20,20
+topology_nodes,87,32,32,32
+topology_edges,87,0,4,14

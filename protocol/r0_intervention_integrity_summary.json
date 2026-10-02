@@ -1,0 +1,50 @@
+{
+  "case_seed_rows": 261,
+  "condition_manifest_rows": 870,
+  "confirmatory_incidents": 87,
+  "dataset": "RCA100",
+  "dataset_version": "1.1",
+  "deranged_type_rows": 3054,
+  "development_incidents": 16,
+  "failed_case_seeds": [],
+  "gates": {
+    "api_calls": 0,
+    "candidate_order_equal": {
+      "pass": 522,
+      "total": 522
+    },
+    "candidate_surface_equal": {
+      "pass": 522,
+      "total": 522
+    },
+    "gold_firewall": "PASS",
+    "label_multiset_equal": {
+      "pass": 261,
+      "total": 261
+    },
+    "nonlabel_payload_equal": {
+      "pass": 522,
+      "total": 522
+    },
+    "other_project_files_modified": 0,
+    "ownership_bijection": {
+      "pass": 261,
+      "total": 261
+    },
+    "typed_wrong_holder": {
+      "pass": 261,
+      "total": 261
+    }
+  },
+  "identity_carry_type_rows": 2019,
+  "movement_coverage": {
+    "max": 0.979381443298969,
+    "mean": 0.940130806873844,
+    "median": 0.9713261648745519,
+    "min": 0.11840082009226038
+  },
+  "planned_request_rows": 1740,
+  "status": "READY_FOR_CANARY",
+  "study_id": "STUDY_S_V2_SEMANTIC_OWNERSHIP",
+  "topology_specific_rows": 522
+}

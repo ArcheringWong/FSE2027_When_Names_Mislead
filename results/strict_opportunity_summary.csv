@@ -1,0 +1,5 @@
+provider,topology,eligible_case_seed_rows,eligible_unique_cases,eligible_rows_with_correct_shared_start,strict_switches,strict_unique_cases,strict_switches_from_correct_shared_start
+DEEPSEEK,on,140,47,3,0,0,0
+QWEN,on,68,23,3,6,4,0
+DEEPSEEK,off,143,48,3,0,0,0
+QWEN,off,74,25,3,4,3,0
